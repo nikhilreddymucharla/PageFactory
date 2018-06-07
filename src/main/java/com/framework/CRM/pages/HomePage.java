@@ -17,11 +17,18 @@ public class HomePage extends  TestBase {
 	@FindBy(xpath="//td[contains(text(),'User')]")
 	WebElement profileName;
 	
+	@FindBy(xpath="//a[@title='Home']")
+	WebElement homemenu;
+	
 	
 	public boolean isProfileNameDisplayed()
 	{
 		return profileName.isDisplayed();
 	}
 	
-	
+	public HomePage homePage()
+	{
+		return new HomePage();
+
+	}
 }
