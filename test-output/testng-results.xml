@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="108050" started-at="2018-06-07T14:29:21Z" finished-at="2018-06-07T14:31:09Z">
+  <suite name="Default suite" duration-ms="127969" started-at="2018-06-07T14:34:24Z" finished-at="2018-06-07T14:36:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="108050" started-at="2018-06-07T14:29:21Z" finished-at="2018-06-07T14:31:09Z">
+    <test name="Default test" duration-ms="127969" started-at="2018-06-07T14:34:24Z" finished-at="2018-06-07T14:36:32Z">
       <class name="com.framework.CRM.rough.GoiboDynamicCalender">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.CRM.rough.GoiboDynamicCalender@192b07fd]" name="setup" is-config="true" duration-ms="6828" started-at="2018-06-07T19:59:21Z" finished-at="2018-06-07T19:59:28Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.CRM.rough.GoiboDynamicCalender@192b07fd]" name="setup" is-config="true" duration-ms="6508" started-at="2018-06-07T20:04:24Z" finished-at="2018-06-07T20:04:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="selectMonth()[pri:0, instance:com.framework.CRM.rough.GoiboDynamicCalender@192b07fd]" name="selectMonth" duration-ms="101187" started-at="2018-06-07T19:59:28Z" finished-at="2018-06-07T20:01:09Z">
+        <test-method status="PASS" signature="selectMonth()[pri:0, instance:com.framework.CRM.rough.GoiboDynamicCalender@192b07fd]" name="selectMonth" duration-ms="121430" started-at="2018-06-07T20:04:31Z" finished-at="2018-06-07T20:06:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMonth -->
