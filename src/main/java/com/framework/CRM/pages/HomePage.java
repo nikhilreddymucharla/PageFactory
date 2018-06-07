@@ -13,7 +13,7 @@ public class HomePage extends  TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	
+	//homepage
 	@FindBy(xpath="//td[contains(text(),'User')]")
 	WebElement profileName;
 	
