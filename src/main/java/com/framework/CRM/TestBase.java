@@ -55,8 +55,8 @@ public class TestBase {
 		
 		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.get(pro.getProperty("testsiteurl"));
 		log.info("Browser url is lanched "+pro.getProperty("testsiteurl"));
 		

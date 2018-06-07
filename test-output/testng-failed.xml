@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.framework.CRM.test.LoginTest">
+      <class name="com.framework.CRM.rough.GoiboDynamicCalender">
         <methods>
-          <include name="setup"/>
-          <include name="Quit"/>
-          <include name="userLoginTest"/>
+          <include name="selectMonth"/>
         </methods>
-      </class> <!-- com.framework.CRM.test.LoginTest -->
+      </class> <!-- com.framework.CRM.rough.GoiboDynamicCalender -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
