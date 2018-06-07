@@ -20,6 +20,8 @@ public class HomePage extends  TestBase {
 	@FindBy(xpath="//a[@title='Home']")
 	WebElement homemenu;
 	
+	@FindBy(xpath="td[conatians]")
+	WebElement conacts;
 	
 	public boolean isProfileNameDisplayed()
 	{
