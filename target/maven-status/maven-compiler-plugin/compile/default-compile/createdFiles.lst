@@ -1,6 +1,12 @@
+com\framework\CRM\pages\CompaniesPage.class
 com\framework\CRM\utilites\TestUtilies.class
+com\framework\CRM\rough\GoiboDynamicCalender.class
 com\framework\CRM\WebDriverListner.class
 com\framework\CRM\pages\LoginPage.class
+com\framework\CRM\pages\ContactsPage.class
+com\framework\CRM\pages\CalendarPage.class
 com\framework\CRM\TestBase.class
 com\framework\CRM\pages\HomePage.class
+com\framework\CRM\rough\rough.class
+com\framework\CRM\test\HomeTest.class
 com\framework\CRM\test\LoginTest.class

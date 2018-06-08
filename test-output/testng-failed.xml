@@ -3,11 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.framework.CRM.rough.GoiboDynamicCalender">
+      <class name="com.framework.CRM.test.HomeTest">
         <methods>
-          <include name="selectMonth"/>
+          <include name="setup"/>
+          <include name="clickOnCalender"/>
+          <include name="teardown"/>
+          <include name="clickOnContact"/>
+          <include name="clickonCompanies"/>
+          <include name="checkUserProfile"/>
         </methods>
-      </class> <!-- com.framework.CRM.rough.GoiboDynamicCalender -->
+      </class> <!-- com.framework.CRM.test.HomeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

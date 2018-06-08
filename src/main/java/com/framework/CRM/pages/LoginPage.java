@@ -33,9 +33,8 @@ public class LoginPage  extends TestBase{
 	{
 		username.sendKeys(usr);
 		password.sendKeys(pwd);
-		loginbtn.click();
-		/*JavascriptExecutor js = (JavascriptExecutor)driver;
-    	js.executeScript("arguments[0].click();", loginbtn);*/
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+    	js.executeScript("arguments[0].click();", loginbtn);
 		
 		return new HomePage();
 	}

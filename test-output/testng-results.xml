@@ -1,21 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="127969" started-at="2018-06-07T14:34:24Z" finished-at="2018-06-07T14:36:32Z">
+  <suite name="Default suite" duration-ms="60489" started-at="2018-06-08T14:07:32Z" finished-at="2018-06-08T14:08:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="127969" started-at="2018-06-07T14:34:24Z" finished-at="2018-06-07T14:36:32Z">
-      <class name="com.framework.CRM.rough.GoiboDynamicCalender">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.CRM.rough.GoiboDynamicCalender@192b07fd]" name="setup" is-config="true" duration-ms="6508" started-at="2018-06-07T20:04:24Z" finished-at="2018-06-07T20:04:31Z">
+    <test name="Default test" duration-ms="60489" started-at="2018-06-08T14:07:32Z" finished-at="2018-06-08T14:08:33Z">
+      <class name="com.framework.CRM.test.HomeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="setup" is-config="true" duration-ms="16974" started-at="2018-06-08T19:37:32Z" finished-at="2018-06-08T19:37:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="selectMonth()[pri:0, instance:com.framework.CRM.rough.GoiboDynamicCalender@192b07fd]" name="selectMonth" duration-ms="121430" started-at="2018-06-07T20:04:31Z" finished-at="2018-06-07T20:06:32Z">
+        <test-method status="PASS" signature="checkUserProfile()[pri:1, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="checkUserProfile" duration-ms="100" started-at="2018-06-08T19:37:49Z" finished-at="2018-06-08T19:37:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectMonth -->
-      </class> <!-- com.framework.CRM.rough.GoiboDynamicCalender -->
+        </test-method> <!-- checkUserProfile -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="teardown" is-config="true" duration-ms="742" started-at="2018-06-08T19:37:49Z" finished-at="2018-06-08T19:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="setup" is-config="true" duration-ms="10843" started-at="2018-06-08T19:37:50Z" finished-at="2018-06-08T19:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOnCalender()[pri:2, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="clickOnCalender" duration-ms="196" started-at="2018-06-08T19:38:01Z" finished-at="2018-06-08T19:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCalender -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="teardown" is-config="true" duration-ms="730" started-at="2018-06-08T19:38:01Z" finished-at="2018-06-08T19:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="setup" is-config="true" duration-ms="11510" started-at="2018-06-08T19:38:02Z" finished-at="2018-06-08T19:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonCompanies()[pri:3, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="clickonCompanies" duration-ms="1257" started-at="2018-06-08T19:38:13Z" finished-at="2018-06-08T19:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonCompanies -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="teardown" is-config="true" duration-ms="774" started-at="2018-06-08T19:38:15Z" finished-at="2018-06-08T19:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="setup" is-config="true" duration-ms="15503" started-at="2018-06-08T19:38:15Z" finished-at="2018-06-08T19:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOnContact()[pri:4, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="clickOnContact" duration-ms="1064" started-at="2018-06-08T19:38:31Z" finished-at="2018-06-08T19:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.framework.CRM.test.HomeTest@64bfbc86]" name="teardown" is-config="true" duration-ms="732" started-at="2018-06-08T19:38:32Z" finished-at="2018-06-08T19:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.framework.CRM.test.HomeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

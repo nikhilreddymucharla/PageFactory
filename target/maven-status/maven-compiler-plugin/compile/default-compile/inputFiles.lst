@@ -1,6 +1,12 @@
 D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\pages\LoginPage.java
 D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\test\LoginTest.java
+D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\pages\CalendarPage.java
+D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\rough\rough.java
+D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\test\HomeTest.java
+D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\pages\ContactsPage.java
+D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\rough\GoiboDynamicCalender.java
 D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\TestBase.java
 D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\WebDriverListner.java
+D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\pages\CompaniesPage.java
 D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\pages\HomePage.java
 D:\seleniumwithjava\CRM\src\main\java\com\framework\CRM\utilites\TestUtilies.java
